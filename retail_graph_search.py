@@ -35,7 +35,7 @@ def bfs_path_search(graph, start):
 def main():
     rtl_graph = retail_graph.create_retail_graph()
 
-    # Traversal of the VATB graph through the dfs and bfs algorithms
+    # Traversal of the retail graph through the dfs and bfs algorithms
     departure_from = retail_graph.vatb_store_138
     dfs_path = dfs_path_search(rtl_graph, departure_from)
     bfs_path = bfs_path_search(rtl_graph, departure_from)
