@@ -7,7 +7,7 @@ def main():
     rtl_graph = retail_graph.create_retail_graph()
 
     # Calculate path
-    shortest_path = dijkstra_shortest_path(rtl_graph, retail_graph.vatb_store_138)
+    shortest_path = dijkstra_shortest_path(rtl_graph, retail_graph.store_138)
 
     # Display path
     print(f"Shortest delivery path for retail graph:\n{shortest_path}")
