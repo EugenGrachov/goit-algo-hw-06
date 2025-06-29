@@ -54,12 +54,12 @@ east_route_time_min = [7, 5, 6, 4, 8, 3, 10]
 store_1105 = "Hirshmana St"
 store_1432 = "Sharykova St"
 store_592 = "Rybalko St"
-store_1255 = "Svobody Ln"
+store_1271 = "Svobody Ln"
 store_1256 = "Shevchenka St"
 
 west_stores = [
     store_1105, store_1432, store_592,
-    store_1255, store_1256
+    store_1271, store_1256
 ]
 west_route_time_min = [5, 3, 7, 6]
 
